@@ -1,0 +1,73 @@
+.github-container {
+  height: 100vh;
+  background-color: rgb(17, 102, 163, 0.6);
+  padding: 40px;
+}
+.gs-header {
+  color: #fefefe;
+}
+
+.gs-input-row {
+  width: 300px;
+  position: relative;
+  margin: 40px auto;
+}
+
+.gs-input {
+  margin: 0px;
+  padding: 0px 10px;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+}
+.gs-service-row {
+  color: #fefefe;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.gs-button {
+  position: absolute;
+  top: 0;
+  border-radius: 5px;
+  right: -20px;
+  z-index: 2;
+  border: none;
+  top: 2px;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  background-color: #1166a3;
+  transform: translateX(2px);
+}
+
+.gs-button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.user-card-container {
+  width: 300px;
+  margin: auto;
+}
+.gs-user {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background-color: #fefefe;
+}
+
+.gs-avatar {
+  height: 150px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}

@@ -1,0 +1,73 @@
+.lm-container {
+  min-height: 100vh;
+  padding: 50px;
+  background-color: rgb(17, 102, 163, 0.1);
+}
+
+.lm-heading {
+  text-align: center;
+  font-size: xxx-large;
+  padding: 30px;
+}
+.lm-content {
+  padding-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.lm-product-card {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.lm-product-card:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.lm-product-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.lm-card-title {
+  text-align: center;
+  margin: 0;
+}
+
+.lm-button {
+  border: none;
+  cursor: pointer;
+  color: white;
+  transform: translateX(2px);
+  background-color: rgb(17, 102, 163);
+  margin: auto;
+  display: block;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.lm-button-section {
+  padding-bottom: 30px;
+}
+
+.lm-button-section h4 {
+  text-align: center;
+}
+.lm-button:hover {
+  background-color: rgb(17, 102, 163, 0.5);
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,82 @@
+.mp-container {
+  height: 100vh;
+  position: relative;
+}
+.mp-button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #1166a3;
+  border: 1px solid #1166a3;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.modal-container {
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  animation-name: animateModal;
+  animation-duration: 0.5s;
+  text-align: center;
+  border: 1px solid #1166a3;
+}
+
+.close-modal-button {
+  cursor: pointer;
+  font-size: 40px;
+  float: right;
+  font-weight: bold;
+}
+.mp-header {
+  padding: 4px 16px;
+  background-color: #1166a3;
+  color: #fff;
+}
+
+.mp-body {
+  padding: 2px 16px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.mp-footer {
+  padding: 2px 16px;
+  background-color: #1166a3;
+  color: #fff;
+  margin: 0;
+  min-height: 50px;
+  line-height: 50px;
+}
+
+@keyframes animateModal {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}

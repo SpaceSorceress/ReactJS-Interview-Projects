@@ -1,0 +1,25 @@
+.random-color-wrapper {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.random-color-content {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.random-buttons-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.random-button {
+  height: 50px;
+  width: 20%;
+}

@@ -1,0 +1,42 @@
+.qr-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(17, 102, 163, 0.1);
+}
+
+.qr-input-row {
+  width: 300px;
+  position: relative;
+}
+
+.qr-input {
+  margin: 0px;
+  padding: 0px 10px;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.qr-button {
+  position: absolute;
+  top: 0;
+  border-radius: 5px;
+  right: -20px;
+  z-index: 2;
+  border: none;
+  top: 2px;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  background-color: #1166a3;
+  transform: translateX(2px);
+}
+
+.qr-button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+}
