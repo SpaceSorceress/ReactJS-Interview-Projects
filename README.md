@@ -1,8 +1,17 @@
-# React + Vite
+# React Interview Projects 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+These projects were inspired by a Free-Code-Camp tutorial released in 2024. The ideas and main goals of the projects were taken as they are, however styling and code are mostly written by myself.
+Here is the list of projects which are ready at this moment:
+        Accordion 
+        Random Color Generator
+        Star Rating 
+        Image Slider 
+        Load more products tool
+        Tree view menu/menu UI component / recursive navigation menu  
+        QR Code Generator 
+        Light vs Dark Mode 
+        Scroll Indicator Component 
+        Modal Popup 
+        Github User Search mini-app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
