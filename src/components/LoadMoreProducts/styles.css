@@ -9,6 +9,17 @@
   font-size: xxx-large;
   padding: 30px;
 }
+.search-product input {
+  margin: 0px;
+  padding: 0px 10px;
+  width: 300px;
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+
+  margin-top: 40px;
+}
+
 .lm-content {
   padding-top: 75px;
   display: flex;

@@ -22,13 +22,15 @@
   border-radius: 5px;
 }
 .gs-service-row {
-  color: #fefefe;
   position: absolute;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 350px;
+  color: #1166a3;
+  font-weight: bold;
+  text-align: center;
 }
 
 .gs-button {

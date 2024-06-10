@@ -8,6 +8,7 @@ import QRCodeGenerator from "./components/QRCodeGenerator";
 import RandomColorGenerator from "./components/RandomColor";
 import ScrollIndicator from "./components/ScrollIndicator";
 import StarRating from "./components/StarRating";
+import TicTactToe from "./components/Tic-Tac-Toe";
 import TreeViewMenu from "./components/TreeViewComponent";
 
 export default function App() {
@@ -46,6 +47,9 @@ export default function App() {
 
         {/* Github User Search Component */}
         <GithubSearchUser />
+
+        {/* Tic Tac Toe Game */}
+        <TicTactToe />
       </div>
     </>
   );

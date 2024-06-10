@@ -1,6 +1,7 @@
 .mp-container {
   height: 100vh;
   position: relative;
+  background-color: rgb(17, 102, 163, 0.1);
 }
 .mp-button {
   margin: 0;
